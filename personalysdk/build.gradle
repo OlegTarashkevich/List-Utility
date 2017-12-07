@@ -31,23 +31,24 @@ dependencies {
 }
 
 ext {
+//                                             personaly / sdk / listutil
     bintrayRepo = 'sdk' // your repo name
-    bintrayName = 'List-Utility' // has to be same as your library module name
+    bintrayName = 'listutil' // has to be same as your library module name
     orgName = 'personaly'
 
     publishedGroupId = 'com.mobexs.personalysdk' // your module package name
-    libraryName = 'personaly'
-    artifact = 'personalysdk' // has to be same as your library module name
+    libraryName = 'listutil'
+    artifact = 'listutil' // has to be same as your library module name
 
     libraryDescription = 'A set of methods used to manipulate time object'
-
-    developerId = 'personaly'
-    developerName = 'Oleg'
-    developerEmail = 'oleg.tarashkevich@mobexs.com'
 
     siteUrl = 'https://github.com/OlegTarashkevich/List-Utility'
     gitUrl = 'git@github.com:OlegTarashkevich/List-Utility.git'
     libraryVersion = '1.0.4'
+
+    developerId = 'personaly'
+    developerName = 'Oleg Tarashkevich'
+    developerEmail = 'oleg.tarashkevich@mobexs.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
