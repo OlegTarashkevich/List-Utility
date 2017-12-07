@@ -13,7 +13,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.4"
         
     }
 
@@ -30,39 +30,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
 }
 
-//apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
-//apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'
-
-//apply from: 'https://raw.githubusercontent.com/JoaquimLey/jcenter-config/master/deploy.gradle'
-
-//ext {
-//    bintrayRepo = 'maven'
-//    bintrayName = 'SingleDateAndTimePicker'
-//    orgName = 'florent37'
-//
-//    publishedGroupId = 'com.github.florent37'
-//    libraryName = 'SingleDateAndTimePicker'
-//    artifact = 'singledateandtimepicker'
-//
-//    libraryDescription = 'SingleDateAndTimePicker'
-//
-//    siteUrl = 'https://github.com/florent37/SingleDateAndTimePicker'
-//    gitUrl = 'https://github.com/florent37/SingleDateAndTimePicker.git'
-//
-//    libraryVersion = rootProject.ext.libraryVersion
-//
-//    developerId = 'florent37'
-//    developerName = 'Florent Champigny'
-//    developerEmail = 'champigny.florent@gmail.com'
-//
-//    licenseName = 'The Apache Software License, Version 2.0'
-//    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-//    allLicenses = ["Apache-2.0"]
-//}
-
 ext {
     bintrayRepo = 'sdk' // your repo name
-    bintrayName = 'listutil' // has to be same as your library module name
+    bintrayName = 'List-Utility' // has to be same as your library module name
     orgName = 'personaly'
 
     publishedGroupId = 'com.mobexs.personalysdk' // your module package name
@@ -86,3 +56,4 @@ ext {
 
 apply from: rootProject.file('gradle/install-v1.gradle')
 apply from: rootProject.file('gradle/bintray-android-v1.gradle')
+
