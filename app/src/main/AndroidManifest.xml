@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
           package="com.mobexs.example">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        tools:overrideLibrary="com.mopub.mobileads, com.mopub.mobileads.banner, com.mopub.mobileads.rewarded_video, com.mopub.mobileads.interstitial, com.mopub.mobileads.native_video, com.mopub.mobileads.native_static, com.mopub.mobileads.base, com.moat.analytics.mobile.mpub" />
 
     <application
         android:allowBackup="true"

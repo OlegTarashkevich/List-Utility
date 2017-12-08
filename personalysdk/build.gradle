@@ -32,7 +32,7 @@ dependencies {
 
 ext {
 //                                             personaly / sdk / listutil
-    bintrayRepo = 'sdk' // your repo name
+    bintrayRepo = 'maven' // your repo name
     bintrayName = 'listutil' // has to be same as your library module name
     orgName = 'personaly'
 

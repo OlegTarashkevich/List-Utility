@@ -23,8 +23,27 @@ android {
     }
 }
 
+repositories {
+    maven { url "https://dl.bintray.com/ironsource-mobile/android-sdk" }
+
+//    maven { url "https://dl.bintray.com/personaly/maven" }
+    maven { url '/Users/mobexs/Work/Advertise SDK/persona/sdk/build/release' }
+
+    maven { url "https://mopub.bintray.com/mopub-android-sdk" }
+    maven { url "https://s3.amazonaws.com/moat-sdk-builds" }
+    google()
+}
+
 dependencies {
 
     compile 'com.android.support:appcompat-v7:25.1.0'
+
+
+    compile 'ly.persona.sdk:personaly:1.0.621'
+//    compile 'com.mopub:mopub-sdk:4.18.0'
+
+    compile('com.mopub:mopub-sdk:4.18.0@aar') {
+        transitive = true
+    }
 
 }
